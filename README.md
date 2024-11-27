@@ -8,7 +8,7 @@ The directional light changes its angle over time, creating a day and night cycl
 While if the player is obscured from the sun by a shadow cast by surrounding structures, or currently its night time - they are safe from the sun's damage.
 
 ### How does it work
-```
+```csharp
 public class Sun : MonoBehaviour
 {
     [SerializeField] private PlayerDamage player;
